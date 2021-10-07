@@ -1,0 +1,11 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+**[16,21,11]+[8,12,22]> [16]+[21,11]+[8]+[12,22]> [16]+[21]+[11]+[8]+[12]+[22]> [16,21]+[11]+[8,12]+[22]> [11,16,21]+[8,12,22]> [8,11,12,16,21,22]
+
+Big-O gösterimini yazınız.
+** Merge Sort ayırma işlemi x defa (logn) yapılır her seferinde eleman sayısı kadar (n) sıralama işlemi yapılır. O(nlogn)
+n+n/2+n/4+n/8...+1  
+2^x = n 
+x = logn 
+
